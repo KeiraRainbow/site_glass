@@ -1,0 +1,130 @@
+body{
+	min-width: 320px;
+    background: linear-gradient(#023b50, #7cbbae);
+    position: relative;
+    box-sizing: border-box;
+    padding-bottom: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid{
+	background-color: linear-gradient (#023b50, #1a5462);
+	margin-bottom: 30px;
+}
+
+.nav-item{
+	font-family: 'Comic Sans MS';
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+a:hover{
+	color: #c7dfed;
+	text-decoration: none;
+	text-shadow: -3px 3px 3px #2a2c2c;
+	-moz-text-shadow:0 0 5px #93e8e7; 
+	-webkit-text-shadow:0 0 5px #93e8e7; 
+	text-shadow:0 0 5px #93e8e7;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.content{
+	text-align: center;
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
+	font-size: 32px;
+	color: #fff;
+	text-align: center;
+}
+
+
+li a {
+	display: block;
+	color: #d3e5ef;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	text-shadow: 1px 0 1px #182e36, 
+	0 1px 1px #182e36, 
+	-2px 0 1px #182e36, 
+	0 -1px 1px #182e36;
+}
+
+
+
+h1 {
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
+	font-size: 34px;
+	color: #fff;
+	text-shadow: 1px 0 1px #182e36, 
+	0 1px 1px #182e36, 
+	-2px 0 1px #182e36, 
+	0 -1px 1px #182e36;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
+	font-size: 32px;
+	color: #fff;
+	text-shadow: 1px 0 1px #182e36, 
+	0 1px 1px #182e36, 
+	-2px 0 1px #182e36, 
+	0 -1px 1px #182e36;
+	text-align: center;
+}
+
+p{
+	font-family: 'Comic Sans MS';
+	font-weight: bold;
+	font-size: 28px;
+	color: #fff;
+	text-shadow: 1px 0 1px #182e36, 
+	0 1px 1px #182e36, 
+	-2px 0 1px #182e36, 
+	0 -1px 1px #182e36;
+	text-align: center;
+}
+
+footer{
+	font-family: 'Comic Sans MS';
+	color: #033c50;
+	background-color: linear-gradient (#7cbbae, #99d7ca);
+	font-size: 20px;
+	font-weight: bold;
+	position: absolute;
+	bottom: 0;
+	height: 35px;
+}
+
+
+
+
+@media only screen and (min-width: 1280 xp) {
+
+}
+
+@media only screen and (max-width: 1279 xp) {
+}
+
+@media only screen and (max-width: 768 xp) {
+}
+@media only screen and (max-width: 767 xp) {
+}
+@media only screen and (max-width: 320 xp) {
+
+}
